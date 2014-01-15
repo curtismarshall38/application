@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Add Student</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+
+
+<style type="text/css">
+input{
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="a" align="center">
+	<div id="header" data-role="header" data-theme="a">	
+		<h1><img src="../application/pictures/AmpedLogo.jpg" style="width: 100%;" /></h1>
+		<a href="#" class="ui-btn-left" data-rel="back">Back</a>
+		<a href="#" class="ui-btn-right">Logout</a>
+		</div>
+		<div data-role="content" data-position="inline" data-theme="a" >
+
+			<form id="myForm" method="post" action="student.html" data-transition="pop" data-direction="reverse">
+
+			<fieldset>
+				<div data-role="fieldcontain">
+
+				<h2>Add Step Count</h2>
+
+				<input type="text" name="time" placeholder="Time" /><br />
+
+				<input type="text" name="classid" placeholder="Step Count" /><br />
+
+				<input type="text" name="subject" placeholder="Subject" /><br />
+
+				<input type="text" name="classlocation" placeholder="Location" /><br />
+
+				<input type="submit" value="Submit" />
+
+				</div>
+
+			</fieldset>
+
+		
+	</div>
+
+    </form>	
+
+		<div data-role="footer" data-position="absolute" data-theme="a">
+		<img src="../application/pictures/UWSblacklogo.jpg" style="width: 30%;" />
+	</div>
+
+		
+	</div>
+</body>
+</html>

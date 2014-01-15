@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Sign In</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+<script src="localhost/application/myscript.js"></script>
+
+
+<style type="text/css">
+input{
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<div data-role="page" data-theme="a" align="center">
+	<div id="header" data-role="header" data-theme="a">	
+		<h1><img src="../application/pictures/AmpedLogo.jpg" style="width: 100%;" /></h1>
+		</div>
+		<div data-role="content" data-position="inline" data-theme="a" >
+
+			<form id="myForm" method="post" action="home.html" data-transition="pop" data-direction="reverse">
+			
+			<fieldset>
+				<div data-role="fieldcontain">
+
+				<input type="text" name="email" placeholder="Email" required /><br />
+
+				<input type="password" name="password" placeholder="Password" required />
+
+				<input type="submit" value="Sign In" />
+
+				</div>
+
+			</fieldset>
+
+		
+	</div>
+
+    </form>	
+
+		<div data-role="footer" data-position="fixed"  data-theme="a">
+		<img src="../application/pictures/UWSblacklogo.jpg" style="width: 30%;" />
+	</div>
+		
+	</div>
+</body>
+</html>
